@@ -1,0 +1,45 @@
+#netshoes{
+    border-style:hidden;
+    border-bottom-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    background-color: blueviolet;
+    
+    
+}
+#find{
+    border-radius: 4vh;
+    width: 28vh;
+    display: flex;
+    min-width: 94vh;
+    font-size: 2vh;
+    
+
+}
+.container{
+    margin-left: 40vh;
+    margin-bottom: 5vh;
+}
+.item-menu{
+    display: inline;
+    margin: 2.9rem;
+    font-size: 3.8vh;
+    color: grey;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+#zattini{
+    background-color: rgb(93, 20, 161);
+    padding: 1vh;
+}
+#teste{
+    font-size: 3vh;
+    border-style: hidden;
+    background-color: gray;
+    margin-right: 172vh;
+    padding-left: 2vh;
+}
+
+

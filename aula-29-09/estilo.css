@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+}
+.container{
+    background-color: white;
+    border-style: hidden;
+    border-radius: 20vh;
+    box-shadow: 0 0 
+}
+.container-fluid{
+    background-color: whitesmoke;
+    border-radius: 1vh;
+}

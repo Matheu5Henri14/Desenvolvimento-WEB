@@ -1,0 +1,19 @@
+/*Comentario em CSS
+Seletor de elementos - Linha 4
+*/
+h1{
+    color: rgb(255, 255, 255);
+}
+/*Seletor de ID*/
+#xuxu{
+    background-color: rgb(39, 160, 160);
+}
+/*Seletor de classe*/
+/*Afeta todos os elementos da classe estiloso*/
+.estiloso{
+    border-style:solid;
+}
+/*Afeta apenas os p da classe centralizada*/
+p.centraliza{
+    text-align: center;
+}

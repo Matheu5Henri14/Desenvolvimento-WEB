@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(90deg, blue, aqua);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+#form {
+    background: linear-gradient(310deg, blue, aqua);
+    border: none;
+    padding: 6vh;
+    width: 100%;
+    max-width: 400px; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 30px 7px aqua;
+    color: white;
+}
+
+
+
+
+
+#salvar {
+    border-radius: 30px;
+}
+
+
+#Botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#Botao:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    #form {
+        padding: 4vh;
+        max-width: 90%;
+    }
+
+    #Titulo {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    #form {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    #Titulo {
+        font-size: 1rem;
+    }
+
+    #Botao {
+        width: 100%;
+        text-align: center;
+    }
+}
+
